@@ -1,0 +1,14 @@
+.navigation {
+    @apply container mx-auto py-8;
+    &__wrapper {
+        @apply flex justify-between;
+    }
+
+    &__links {
+        @apply flex gap-11 items-center;
+    }
+
+    &__auth {
+        @apply flex gap-8 items-center;
+    }
+}

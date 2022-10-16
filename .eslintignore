@@ -1,0 +1,4 @@
+build/*
+public/*
+.eslintrc.json
+.tailwind.config.js

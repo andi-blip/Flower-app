@@ -1,0 +1,277 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "standard",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/typescript",
+        "plugin:unicorn/recommended",
+        "plugin:sonarjs/recommended",
+        "plugin:eslint-comments/recommended",
+        "plugin:promise/recommended",
+        "plugin:jsx-a11y/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json",
+        "tsConfigRootDir": "./client/"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            },
+            "typescript": {
+                "project": "."
+            }
+        },
+        "react": {
+            "version": "detect"
+        }
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier",
+        "react-hooks",
+        "import",
+        "unicorn",
+        "jsx-a11y"
+    ],
+    "rules": {
+        "no-prototype-builtins": "off",
+        "no-console": "warn",
+        "no-param-reassign": "error",
+        "prefer-template": "error",
+        "arrow-parens": "off",
+        "arrow-body-style": ["warn", "as-needed"],
+        "func-names": "warn",
+        "no-constant-condition": "error",
+        "no-underscore-dangle": "error",
+        "nonblock-statement-body-position": "error",
+        "prefer-arrow-callback": [
+            "error",
+            {
+                "allowNamedFunctions": true
+            }
+        ],
+        "dot-notation": "off",
+        "no-use-before-define": "warn",
+        "no-implied-eval": "off",
+        "no-throw-literal": "off",
+        "no-return-await": "off",
+        "comma-dangle": "off",
+        "semi": "off",
+        "no-unused-vars": "warn",
+        "max-len": [
+            "warn",
+            {
+                "code": 100,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreComments": true
+            }
+        ],
+        "camelcase": [
+            "error",
+            {
+                "allow": ["^UNSAFE_"],
+                "properties": "never",
+                "ignoreGlobals": true,
+                "ignoreImports": true,
+                "ignoreDestructuring": true
+            }
+        ],
+        "indent": [
+            "warn",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "multiline-ternary": ["warn", "never"],
+        "prettier/prettier": [
+            "warn",
+            {
+                "singleQuote": true,
+                "parser": "flow",
+                "endOfLine": "auto"
+            }
+        ],
+        "import/prefer-default-export": "off",
+        "import/no-default-export": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/newline-after-import": "warn",
+        "import/extensions": [
+            "warn",
+            "ignorePackages",
+            {
+                "ts": "never",
+                "tsx": "never",
+                "js": "never",
+                "jsx": "never",
+                "svg": "always"
+            }
+        ],
+        "import/no-duplicates": [
+            "warn",
+            {
+                "considerQueryString": true
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/dot-notation": ["error"],
+        "@typescript-eslint/no-implied-eval": ["error"],
+        "@typescript-eslint/no-throw-literal": ["error"],
+        "@typescript-eslint/return-await": ["error"],
+        "@typescript-eslint/comma-dangle": ["error", "only-multiline"],
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "none",
+                "caughtErrors": "none"
+            }
+        ],
+        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/rules-of-hooks": "warn",
+        "react/default-props-match-prop-types": [
+            "error",
+            {
+                "allowRequiredDefaults": true
+            }
+        ],
+        "react/destructuring-assignment": 2,
+        "react/forbid-prop-types": "off",
+        "react/jsx-curly-brace-presence": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-fragments": "error",
+        "react/jsx-props-no-spreading": "off",
+        "react/no-array-index-key": "error",
+        "react/no-danger": "off",
+        "react/no-direct-mutation-state": "error",
+        "react/require-default-props": "off",
+        "react/sort-prop-types": "off",
+        "react/state-in-constructor": "off",
+        "react/jsx-boolean-value": "error",
+        "react/prop-types": "off",
+        "react/no-unescaped-entities": "warn",
+        "react/jsx-one-expression-per-line": "off",
+        "react/jsx-key": "error",
+        "react/prefer-stateless-function": 1,
+        "react/no-typos": "warn",
+        "react/jsx-uses-react": "off",
+        "react/button-has-type": "off",
+        "react/no-unused-prop-types": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-wrap-multilines": [
+            "error",
+            {
+                "declaration": "parens-new-line",
+                "assignment": "parens-new-line",
+                "return": "parens-new-line",
+                "arrow": "parens-new-line",
+                "condition": "ignore",
+                "logical": "ignore",
+                "prop": "ignore"
+            }
+        ],
+        "jsx-a11y/alt-text": [
+            2,
+            {
+                "elements": ["img", "object", "area", "input[type='image']"],
+                "img": ["Image"],
+                "object": ["Object"],
+                "area": ["Area"],
+                "input[type='image']": ["InputImage"]
+            }
+        ],
+        "unicorn/consistent-function-scoping": "off",
+        "unicorn/filename-case": "off",
+        "unicorn/no-null": "off",
+        "unicorn/explicit-length-check": "off",
+        "unicorn/import-index": "off",
+        "unicorn/import-style": "off",
+        "unicorn/no-array-for-each": "off",
+        "unicorn/no-array-reduce": "off",
+        "unicorn/no-for-loop": "off",
+        "unicorn/no-instanceof-array": "off",
+        "unicorn/no-keyword-prefix": "off",
+        "unicorn/no-unsafe-regex": "error",
+        "unicorn/prefer-math-trunc": "off",
+        "unicorn/prefer-module": "off",
+        "unicorn/prefer-node-protocol": "off",
+        "unicorn/prefer-number-properties": "off",
+        "unicorn/prefer-prototype-methods": "off",
+        "unicorn/prevent-abbreviations": "off",
+        "sonarjs/no-all-duplicated-branches": "error",
+        "sonarjs/no-element-overwrite": "warn",
+        "sonarjs/no-empty-collection": "warn",
+        "sonarjs/no-extra-arguments": "error",
+        "sonarjs/no-identical-conditions": "warn",
+        "sonarjs/no-identical-expressions": "warn",
+        "sonarjs/no-ignored-return": "warn",
+        "sonarjs/no-one-iteration-loop": "error",
+        "sonarjs/no-use-of-empty-return-value": "error",
+        "sonarjs/non-existent-operator": "warn",
+        "sonarjs/cognitive-complexity": ["error", 15],
+        "sonarjs/max-switch-cases": ["error", 10],
+        "sonarjs/no-collapsible-if": "warn",
+        "sonarjs/no-collection-size-mischeck": "warn",
+        "sonarjs/no-duplicate-string": ["error", 5],
+        "sonarjs/no-gratuitous-expressions": "error",
+        "sonarjs/no-identical-functions": "warn",
+        "sonarjs/no-same-line-conditional": "error",
+        "sonarjs/no-unused-collection": "warn",
+        "sonarjs/no-useless-catch": "warn",
+        "sonarjs/prefer-single-boolean-return": "off",
+        "sonarjs/prefer-object-literal": "warn",
+        "simple-import-sort/imports": "off",
+        "simple-import-sort/exports": "off"
+    },
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "rules": {
+                "@typescript-eslint/no-var-requires": "off",
+                "@typescript-eslint/no-unsafe-assignment": "off"
+            }
+        },
+        {
+            "files": "src/**.tsx",
+            "rules": {
+                "import/order": "off"
+            }
+        },
+        {
+            "files": "src/vite-env.d.ts",
+            "rules": {
+                "prettier/prettier": "off"
+            }
+        },
+        {
+            "files": ["src/**/index.ts", "src/**/index.tsx"],
+            "rules": {
+                "simple-import-sort/exports": "warn"
+            }
+        },
+        {
+            "files": "src/initializers/*",
+            "rules": {
+                "unicorn/prefer-export-from": ["off"]
+            }
+        }
+    ]
+}

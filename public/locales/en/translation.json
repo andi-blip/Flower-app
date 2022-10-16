@@ -1,0 +1,636 @@
+{
+    "login": {
+        "title": "Login",
+        "form": {
+            "email": {
+                "placeholder": "Enter email address"
+            },
+            "password": {
+                "placeholder": "Enter password"
+            },
+            "btn": "Login",
+            "link": {
+                "forgot": "Forgot password?",
+                "reset": "Reset now",
+                "policy": "Privacy policy",
+                "conditions": "Terms and Conditions"
+            },
+            "header": {
+                "welcome": "Welcome",
+                "continue": "Please login to continue"
+            }
+        }
+    },
+    "forgotPassword": {
+        "title": "Forgot Password"
+    },
+    "twoFactory.authentication": {
+        "paragraph": "Two factory authentication",
+        "resend": "Send again",
+        "forgot": " Didn't get a code?"
+    },
+    "error": {
+        "unspecific": "Something went wrong.",
+        "404": "The page was not found."
+    },
+    "resetPassword": {
+        "title": "Reset password",
+        "paragraph": "Please enter email address to continue",
+        "btn.verification": "Send verification"
+    },
+    "setpassword": {
+        "title": "Set password",
+        "text": "Please wait you are being redirect to set password page",
+        "error.token": "Your token has been expired, please contact an admin"
+    },
+    "resetLink": {
+        "succesfully": "Reset succesfully",
+        "link": "Reset link sent",
+        "paragraph": "Please check email address we have sent you a link to reset the password",
+        "btn": "Return to sign in"
+    },
+    "sidebar": {
+        "user": {
+            "label": "Reporting links"
+        },
+        "texts": {
+            "reseller": "RESELLER",
+            "client": "CLIENT",
+            "company": "COMPANY"
+        },
+        "dropdown": {
+            "reseller": "Select reseller",
+            "client": "Select client",
+            "company": "Select company"
+        },
+        "btn": {
+            "ticketliste": "Ticketliste",
+            "erstellen": "Erstellen",
+            "collapse": "Collapse",
+            "templates": "Back to templates"
+        },
+        "link": {
+            "imprint": "Imprint",
+            "policy": "Privacy policy"
+        },
+        "menu": {
+            "dashboard": {
+                "label": "Dashboard"
+            },
+            "template": {
+                "label": "Templates"
+            },
+            "module": {
+                "label": "MODULE HinSchG",
+                "submenu": {
+                    "1.label": "All cases",
+                    "2.label": "New cases",
+                    "3.label": "In progress cases",
+                    "4.label": "Closed cases",
+                    "5.label": "Archived cases"
+                }
+            },
+            "templates": {
+                "label": "CUSTOMIZE TEMPLATE",
+                "submenu": {
+                    "1.label": "Reporting link",
+                    "2.label": "Form builder",
+                    "3.label": "Categories",
+                    "4.label": "Languages",
+                    "5.label": "Settings"
+                }
+            },
+            "privacy": {
+                "label": "PRIVACY MODULE",
+                "submenu": {
+                    "1.label": "Privacy Audit",
+                    "2.label": "TOMs",
+                    "3.label": "Directory of Procedures",
+                    "4.label": "Data Processing Agreement",
+                    "5.label": "Data Protection Incidents",
+                    "6.label": "Data Subject Requests",
+                    "7.label": "Privacy notice"
+                }
+            },
+            "company": {
+                "label": "COMPANY",
+                "submenu": {
+                    "1.label": "Company Data",
+                    "2.label": "Employees",
+                    "3.label": "Organizational Units",
+                    "4.label": "Trainings",
+                    "5.label": "Guidelines",
+                    "6.label": "Company Settings"
+                }
+            },
+            "additional": {
+                "label": "OTHERS",
+                "submenu": { "1.label": "Updates", "2.label": "Documentation" }
+            }
+        }
+    },
+    "tableAction": {
+        "dropdown": {
+            "mark.unread": "Mark as unread",
+            "mark.inprocess": "Mark as in process",
+            "marked.archive": "Mark as Archive",
+            "viewuser": "View user",
+            "delete": "Delete",
+            "download": "Download PDF",
+            "edit": "Edit",
+            "close": "Mark as closed"
+        }
+    },
+    "breadcrumb": {
+        "home": "Home",
+        "anonymous": "Anonymous",
+        "allcases": "All cases",
+        "template": "Templates",
+        "formbuilder": "Form Builder",
+        "reporting": "Reporting Link",
+        "category": "Categories",
+        "language": "Language",
+        "settings": "Settings",
+        "activatemodule": "Activate module",
+        "employees": "Employees Details",
+        "ticketlist": "Ticket List"
+    },
+    "anonyomous": {
+        "intro": {
+            "title": "Human resources department",
+            "paragraph": "As an employee, you can report serious matters anonymously or if you have reasonable suspicion of such matters. <br /> <br /> Through this page, you can submit information about reprehensible matters or report actions that are unethical, illegal or in violation of internal policies.The scheme is to be used to bring matters to light that would not otherwise have come to light. <br /> <br /> HR related matters cannot be reported in this system, but must instead be discussed with the immediate manager, director or HR. <br /> <br />It can be reported confidentially with indication of name and contact informationor, if desired, 100% anonymously.<br /> <br />All inquiries are treated confidentially and securely.<br /> <br /> From this page you are able to make a new secure report or follow up on an existing report. Following up on your reports can be relevant for numerous reasons:<br /> <br /> 1) You wish to see the status of your report, to check if action is being taken.<br /> <br />2) You wish to provide additional information to your report.<br /> <br />3) The system administrators has requested additional information from you to helpthem resolve the issue or take the appropriate action.",
+            "btn.create": "Create new report",
+            "or": "or",
+            "btn.excisting": "Look at existing report"
+        },
+        "submit": {
+            "title": "The report was submitted.",
+            "save.password": "Save the password below and store it securely.",
+            "password": "Password",
+            "pdf": "Download PDF",
+            "email": "Email (Optional)",
+            "strong.text": " The password will not be sent to your email. You must save the password from this page before you continue.",
+            "checkfield": "I have stored my password securely, so I can access the report and the replies in the future",
+            "text": "This email will not be shown to anybody. The only use of the email is to notify you when relevant changes to you case are made such as. <br /> <br />1. You received a message from you caseworker.<br /> 2. The status or your case was updated. <br /> 3. A new case worker was assigned to your case.<br /> <br />If you choose not to enter an email, please check your case regularly for updates and messages to help us resolve the issue. <br /> <br />",
+            "btn.continue": "Continue",
+            "copycode": " Copy code"
+        },
+        "report": {
+            "title": "Report an occurrence",
+            "subject": "Subject",
+            "category": "Category",
+            "choose": "Choose how you would like to report",
+            "confidentially.title": "Report confidentially",
+            "confidentially.text": "  You can choose to report confidentially. Your identity will only be known to those who handle your case in confidence, and your identity will appear anonymous and confidential to others in case processing.",
+            "showmore": "Show more",
+            "anonymously.title": "Report anonymously",
+            "anonymously.text": " You can choose to report anonymously if you prefer not to provide your identity to anyone in the process.",
+            "fullname": "Full Name (Optional)",
+            "email": "Email (Optional)",
+            "phonenumber": "Phone number (Optional)",
+            "description": "Description",
+            "adddescription": "Add description…",
+            "recipient.title": "Recipient(s)",
+            "recipient.text": "You can choose to report anonymously if you prefer not to provide your identity to anyone in the process. Show more",
+            "attachments": "Attachments",
+            "submitform": "Submit form"
+        },
+        "required": {
+            "title": "Password required to access",
+            "paragraph": "When you created the occurrence you were given a unique password. Please paste the password into the input below.",
+            "password": "Password",
+            "incorrentPass": "Please input your password!",
+            "pastePassword": "Paste",
+            "btn.continue": "Continue",
+            "btn.cancel": "Cancel"
+        },
+        "details": {
+            "title.report": "Report details",
+            "title.occurrence": "Occurrence details",
+            "title.date": "Date and time",
+            "title.description": "Description",
+            "title.state": "State",
+            "title.departaments": "Departments"
+        },
+        "responses": {
+            "title": "Responses",
+            "name": "Lorem Ipsum"
+        },
+        "message": {
+            "title.message": "Message",
+            "btn.send": "Send"
+        },
+        "listing": {
+            "table": {
+                "user": "User ID",
+                "category": "Case category",
+                "company": "Company",
+                "message": "Message",
+                "status": "Status",
+                "date": "Date reported",
+                "activate": "Activate",
+                "actions": "Actions"
+            },
+            "selectdata": {
+                "odd": "Select Odd Row",
+                "even": "Select Even Row"
+            }
+        },
+        "drawer": {
+            "title": "View Message",
+            "text.user": "User ID",
+            "label.user": "3659-852",
+            "text.category": "Case category",
+            "label.category": "Procurement Fraud",
+            "text.company": "Company",
+            "label.company": "Bits+Bytes",
+            "text.status": "Status",
+            "text.date": "Date reported",
+            "text.message": "Message",
+            "label.message": "Aenean suscipit mi purus, vel ultricies ipsum porttitor sed. Donec vulputate rutrum erat, ut laoreet libero ornare id. Morbi mattis tincidunt nulla at congue. Aliquam eu felis sit amet sem tincidunt fringilla in quis urna. In hac habitasse platea dictumst. Ut vitae nisl iaculis, feugiat odio nec, varius massa. Sed et nisi condimentum, aliquet mauris at, condimentum nisl. Vivamus sed congue urna. Mauris eget nisi at risus varius tempus vitae eget nisi.",
+            "text.response": "Response",
+            "btn.reply": "Reply"
+        },
+        "template": {
+            "maintitle": "Templates",
+            "btn.create": "Create new template",
+            "table": {
+                "name": "Template name",
+                "created": "Created"
+            },
+            "filter": {
+                "created": "Created:",
+                "name": "Template name:"
+            },
+            "custommodal": {
+                "title": "Do you want to delete Abuse of power template?",
+                "text": "You’re deleting template Abuse of power. Are you sure you want to delete it?",
+                "btn.close": "Close",
+                "btn.delete": "Delete template"
+            },
+            "drawer": {
+                "edit": "Edit template",
+                "create": "Create template"
+            }
+        },
+        "reporting": {
+            "maintitle": "Reporting link",
+            "links": {
+                "title": "Bits+Bytes reporting link",
+                "copycode": "Copy code",
+                "download": " Download QR code",
+                "btn.add": "Add reporting channel"
+            },
+            "drawer": {
+                "view": "Channel view",
+                "addreporting": "Add reporting channel",
+                "channel": "Channel name",
+                "department": "Choose departments that should be selectable",
+                "category": "Choose categories that should be selectable"
+            },
+            "table": {
+                "channel": "Channel name",
+                "departments": "Departments",
+                "category": "Selected category",
+                "link": "Reporting link"
+            }
+        },
+        "formbuilder": {
+            "table": {
+                "name": "Element name",
+                "type": "Element type",
+                "required": "Required/Optional",
+                "show": "Show on"
+            },
+            "drawer": {
+                "title": "Form element",
+                "element": "Element title",
+                "placeholder": "Ex. Name, Subject etc",
+                "translation": "Translation goes here",
+                "language": "Choose language",
+                "btn.translation": "Add translation",
+                "privacy": "Show when the following privacy is selected",
+                "activation": "Activation",
+                "text": "By selecting this toggle you will be able to turn on and off this element.",
+                "btn.save": "Save",
+                "radioconfidentially": "Report confidentially",
+                "radioanonymously": "Report anonymously",
+                "radiotext": " You can choose to report anonymously if you prefer not to provide your identity to anyone in the process."
+            }
+        },
+        "category": {
+            "btn.create": "Create new category",
+            "table": {
+                "name": "Category name"
+            },
+            "drawer": {
+                "create": "Create new category",
+                "edit": "Edit category",
+                "name": "Category name",
+                "placeholder": "Category name will be shown on the list",
+                "text": "By selecting this toggle you will be able to turn on and off this category."
+            },
+            "custommodal": {
+                "title": "Do you want to delete Abuse of power category?",
+                "text": "You’re deleting category Abuse of power. Are you sure you want to delete it?",
+                "btn.delete": "Delete category",
+                "btn.cancel": "Cancel process"
+            }
+        },
+        "settings": {
+            "maintitle": "REPORTING SETTINGS",
+            "show.confidential": "Show confidential / anonymous toggle",
+            "text.confidential": "Choose whether or not the confidential / anonymous toggle should be shown to the whistleblower when reporting.",
+            "select": "Allow whistleblower to submit email for notifications after reporting",
+            "show.recipients": "Show recipients",
+            "text.recipients": "Choose if the recipients should be shown to the whistleblower when reporting",
+            "show.users": "Show title on users",
+            "text.users": "Choose if the recipients should have their title shown to the whistleblower when reporting.",
+            "show.pages": "Show pages in footer",
+            "text.pages": "Show all available pages in the footer of the reporting page.",
+            "btn.save": "Save changes"
+        },
+        "languages": {
+            "select": "Select language",
+            "activate": "Activate language",
+            "text": "Activate the language for usage on the reporting page",
+            "title": "Title",
+            "desc": "Description",
+            "btn.discard": "Discard changes",
+            "btn.addpage": "Add new page"
+        }
+    },
+    "ticketDrawers": {
+        "label": {
+            "company": "Company",
+            "module": "Module",
+            "board": "Board",
+            "ticketTitle": "Ticket title",
+            "assignee": "Assignee",
+            "reporter": "Reporter",
+            "dueDate": "Due date",
+            "boardTitle": "Board Title",
+            "description": "Description",
+            "addMember": "Add member",
+            "role": "Role",
+            "boardMembers": "Board members",
+            "administrator": "Administrator",
+            "boardAccess": "Board Access",
+            "attachments": "Attachments",
+            "status": "Status"
+        },
+        "placeholder": {
+            "name": "Add name...",
+            "description": "Add description..."
+        },
+        "button": {
+            "cancel": "Cancel",
+            "create": "Create",
+            "addMember": "Add member",
+            "createTicket": "Create Ticket",
+            "createBoard": "Create Board"
+        }
+    },
+    "ticket": {
+        "board": {
+            "issues": "Issues"
+        },
+        "tasksInTotal": "tasks in total",
+        "filter": {
+            "label": "View:"
+        },
+        "table": {
+            "row": {
+                "dueDate": "Due data",
+                "ticketId": "Ticket Id",
+                "customerName": "Customer name",
+                "title": "Title",
+                "description": "Description",
+                "editor": "Editor",
+                "dueOn": "Due on",
+                "status": "Status",
+                "actions": "Actions"
+            }
+        }
+    },
+
+    "activemodule": {
+        "maintitle": "HinSchG",
+        "title": "Activate module",
+        "paragraph": "In case to continue please activate the HinSchG Module.",
+        "status": "Status",
+        "btnActivation": " Request activation",
+        "modal": {
+            "company": "Select company",
+            "product.description": "Why do you want this product?",
+            "btnRequest": "Submit request",
+            "btnClose": "Close"
+        }
+    },
+
+    "filters": {
+        "label": {
+            "1.label": "Filter:",
+            "2.label": "User ID:",
+            "3.label": "Case category:",
+            "4.label": "Status:",
+            "5.label": "Date reported:",
+            "6.label": "Group by:"
+        },
+        "search": {
+            "placeholder": "Search"
+        }
+    },
+    "employees": {
+        "drawer": {
+            "addRole": "Add Role",
+            "createreseller": "Create reseller",
+            "role": {
+                "label": {
+                    "choose": "Choose",
+                    "roleName": "Role name",
+                    "description": "Description",
+                    "permissions": "Permissions"
+                }
+            },
+            "message": {
+                "company": "Company is required",
+                "salutation": "Salutation is required",
+                "firstName": "First name is required",
+                "lastName": "Last name is required",
+                "email": "Email is required",
+                "phone": "Phone number is required",
+                "mobile": "Mobile number is required",
+                "language": "Language is required",
+                "role": "Role is required",
+                "department": "Department is required"
+            },
+            "placeholder": {
+                "company": "Company",
+                "salutation": "Salutation",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "email": "Email",
+                "phone": "Phone number",
+                "mobile": "Mobile number",
+                "language": "Language",
+                "role": "Role",
+                "department": "Department"
+            }
+        },
+        "modal": {
+            "cancel": "Discard changes",
+            "save": "Save changes",
+            "title": "You have unsaved changes!",
+            "mainTitle": "You're cancelling this process with unsaved changes on screen. Are you sure you want to cancel?",
+            "text": "Do you want to delete?",
+            "desc": "You're deleting Abuse of power. Are you sure you want to delete it?"
+        },
+        "panel": {
+            "generalAccess": "General access",
+            "individualAccess": "Individual access"
+        },
+        "titleuser": "Users",
+        "titleaccess": "Access",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "table": {
+            "name": "Name",
+            "company": "Company",
+            "email": "Email",
+            "phone": "Phone",
+            "mobile": "Mobile",
+            "language": "Language",
+            "departament": "Departament",
+            "organizational": "Organizational Unit",
+            "desc": "Description",
+            "role": "Role",
+            "license": "License",
+            "roles": {
+                "pages": "Pages",
+                "tasks": "Tasks",
+                "comments": "Comments",
+                "attachments": "Attachments",
+                "users": "Users"
+            },
+            "heading": {
+                "role": "Role",
+                "pages": "Pages",
+                "tasks": "Tasks",
+                "comments": "Comments",
+                "attachments": "Attachments",
+                "company": "Company",
+                "users": "Users",
+                "selectAll": "Select all"
+            }
+        },
+        "filters": {
+            "label": {
+                "1.label": "Filter:",
+                "2.label": "Company:",
+                "3.label": "Roles:",
+                "4.label": "Group by:",
+                "btn.adduser": " Add User",
+                "btn.archiveduser": "Archived users",
+                "btn.addcompany": "Add Company"
+            }
+        },
+        "access": {
+            "btn.addpeople": "Add people",
+            "btn.roles": "Manage roles",
+            "btn.remove": "Remove"
+        },
+        "footer": {
+            "create": "Create",
+            "read": "Read",
+            "update": "Update",
+            "delete": "Delete",
+            "c": "C",
+            "r": "R",
+            "u": "U",
+            "d": "D",
+            "cancel": "Cancel",
+            "createRole": "Create Role"
+        },
+        "filter": {
+            "editRole": "Edit Role",
+            "addRole": "Add Role",
+            "save": "Save",
+            "search": "Search for names or email addresses"
+        },
+        "drawers": {
+            "add": "Add user",
+            "edit": "Edit user",
+            "label.name": "User name",
+            "label.email": "Email",
+            "label.role": "Assign role",
+            "label.reseller": "Select reseller",
+            "label.client": "Select client",
+            "label.salutation": "Salutation",
+            "label.firstname": "First name",
+            "label.lastname": "Last name",
+            "label.phone": "Phone",
+            "label.mobile": "Mobile",
+            "label.language": "Language",
+            "label.company": "Select company",
+            "label.desc": "Description",
+            "label.organization": "Organization units",
+            "label.licenses": "Licenses",
+            "label.departament": "Head of department",
+            "label.selectdepartament": "Select departament",
+            "label.username": "Username",
+            "label.password": "Password",
+            "label.permission": "Permissions",
+            "label.companyname": "Company name",
+            "label.id": "ID",
+            "label.address": "Street address",
+            "label.housenumber": "House number",
+            "label.ort": "Ort",
+            "link": "Bearbriten"
+        }
+    },
+    "label": {
+        "active": "Active",
+        "deactive": "Deactive"
+    },
+    "tag": {
+        "new": "New",
+        "progress": "In progress",
+        "closed": "Closed",
+        "active": "Active",
+        "deactive": "Deactive"
+    },
+    "tabs": {
+        "users": "Users",
+        "access": "Access"
+    },
+    "actions": {
+        "btn": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "create": "Create",
+            "delete": "Delete",
+            "discard": "Discard Changes",
+            "savechanges": "Save Changes",
+            "paste": "Paste",
+            "confirm": "Confirm",
+            "submit": "Submit"
+        }
+    },
+    "input": {
+        "label": {
+            "email": "Email",
+            "username": "Username",
+            "password": "Password"
+        },
+        "placeholder": {
+            "email": "Enter email address",
+            "password": "Enter password",
+            "confirm_password": "Confirm your password"
+        },
+        "message": {
+            "required": "${label} is required!",
+            "whitespace": "${label} cannot be empty!",
+            "types.email": "${label} is not a valid email"
+        }
+    }
+}
